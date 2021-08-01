@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+font-family: "Poppins", Sans-serif ;
+
+}
+#yoga .top{
+background-color: #656789;
+height: 10px;
+}
+
+#yoga .navbar ul{
+    margin-left: auto;
+ 
+}
+#yoga .navbar ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#yoga .navbar ul a{
+    color: #745a82;
+    font-size: 20px;
+}
+#yoga .yoga-banner{
+    background-image: url(img/yoga-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+#yoga .inner-banner{
+    background-image: url(img/centr-rond.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
+
+}
+#yoga .inner-banner{
+    display: flex;
+    align-items: center;
+}
+#yoga .inner-banner .info{
+    margin-left: auto;
+    margin-right: auto;
+    color: #745a82;
+}
+#yoga .inner-banner .info h1{
+    text-align: center;
+    font-weight: bold;
+}
+#yoga  .round{
+position: relative;
+top: -250px;
+ background-color: #ebf2f2;
+border-radius: 50%;
+z-index: -1;
+height: 60vh;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+
+}
+#yoga  .round .round-info{
+    color: #745a82;
+    padding-top: 270px;
+    text-align: center;
+}
+#yoga  .round .round-info h2{
+    font-weight: bold;
+}
+#yoga  .meet{
+    margin-top: -230px;
+    color: #745a82;
+}
+#yoga .meet h3{
+    margin-top: 10px;
+    font-weight: bold;
+    text-indent: 20px;
+}
+#yoga  .meet p{
+    margin-left: 20px;
+}
+#yoga  .healthy-life .hl-info{
+ color: #745a82;
+ background-color: #fff !important;
+ margin-top: -30px;
+
+}
+#yoga  .healthy-life .hl-info span{
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    #yoga    .meet{
+  text-align: center;
+    }
+    #yoga  .side-icon{
+   display: none;
+    }
+}
+@media only screen and (max-width: 900px) and (min-width:600px) {
+    #yoga  .meet-pic{
+height: 100px;
+width:100px
+}
+}
+#yoga  .healthy-life {
+    color: #745a82;
+    margin-top: 80px;
+}
+
+#yoga  .healthy-life h5{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #745a82;
+}
+#yoga  .bottom{
+    background-image: url(img/bottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+}
+#yoga .bottom h3{
+    color: #745a82;
+    text-transform: uppercase;
+ padding-top: 300px;
+}
+#yoga  footer{
+    color: #745a82;
+}
+#yoga footer a{
+    color: #745a82;
+    text-decoration: none;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 1500px) and (min-width:900px) {
+    #yoga .bottom {
+        height: 50vh;
+    }
+    #yoga  .bottom h3{
+        padding-top: 210px;
+        font-size: 22px;
+    }
+   
+}
+/*----------------------
+      About
+------------------------*/
+
+#yoga  .about-us{
+    background-image: url(img/about-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+#yoga  .about-left{
+    background-image: url(img/centr-rond.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
+    margin-top: 50px;
+}
+#yoga .about-right{
+    margin-top: 50px;
+    color: #745a82;
+    margin-right: 20px;
+}
+#yoga .about-right h1{
+    font-weight: bold;
+    margin-top: 150px;
+    text-indent: 50px;
+}
+#yoga .about-inner-img{
+    margin-top: 100px;
+}
+@media only screen and (max-width: 600px){
+    #yoga .about-us{
+        height: auto;
+    }
+    #yoga .about-right{
+        text-align: center !important;
+        margin-right: auto !important;
+    }
+    #yoga  .about-right h1{
+        margin-top: -100px !important;
+       
+    }
+    #yoga .about-inner-img {
+        margin-top: 113px;
+    }
+}
+#yoga .end{
+    background-color: #745a82;
+    height: 20px;
+}
+#yoga .contact-left{
+    background-image: url(img/about-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+#yoga .contact-left h2{
+    text-align: center;
+    padding-top: 120px;
+    color: #745a82;
+    font-weight: bold;
+
+}
